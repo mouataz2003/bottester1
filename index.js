@@ -18,6 +18,6 @@ return message.reply(":heavy_check_mark: انا اشغل الان").then(msg => 
 }
 });
 
- var setGame = {'By Mouatz2003 :D'}
+ var setGame = {'By Mouatz2003 $!play :D'}
 
 client.login('NDQwMTUxMTc1NjE0OTU1NTIw.DcdiPQ.xiIhkb3NUquIYr7fl-c5oUBA7EQ');
