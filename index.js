@@ -16,3 +16,8 @@ dispatcher.on('end', () => voiceChannel.leave());
 return message.reply(":heavy_check_mark: انا اشغل الان").then(msg => msg.delete(3000))
 });
 }
+});
+
+ var setGame = {'By @! (ᴸᴼᴳ ❞)  𝓓ᵉᵛ  تركي عتيـﮯبيـﮯ#0033  © }
+
+client.login('NDQwMTUxMTc1NjE0OTU1NTIw.DcdiPQ.xiIhkb3NUquIYr7fl-c5oUBA7EQ')
