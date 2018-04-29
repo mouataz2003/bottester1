@@ -18,6 +18,6 @@ return message.reply(":heavy_check_mark: انا اشغل الان").then(msg => 
 }
 });
 
- var setGame = {'By @! (ᴸᴼᴳ ❞)  𝓓ᵉᵛ  تركي عتيـﮯبيـﮯ#0033  © }
+ var setGame = {'By Mouatz2003 :D'}
 
-client.login('NDQwMTUxMTc1NjE0OTU1NTIw.DcdiPQ.xiIhkb3NUquIYr7fl-c5oUBA7EQ')
+client.login('NDQwMTUxMTc1NjE0OTU1NTIw.DcdiPQ.xiIhkb3NUquIYr7fl-c5oUBA7EQ');
