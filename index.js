@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const config = require('./config.json')
 const { prefix, token } = require('./config.json')
-const YoutubeStream = require('ytdl-core')
 
 
 
@@ -19,7 +18,7 @@ bot.on('guildMemberAdd', member => {
 })
 
 bot.on('ready', function() {
-    bot.user.setActivity('!!help')
+    bot.user.setActivity('c!help')
 
 })
 
@@ -50,7 +49,7 @@ if (command === "help") {
             fields: [{
                 name: "Command Is: ↓",
                 value:
-                "`1.` !!help\n`2.` !!avatar \n`3.` !!ping \n`4.` !!react \n`5.` !!server \n`6.` !!me \n`7.` !!kick \n`8.` !!fruits"
+                "`1.` c!help\n`2.` c!avatar \n`3.` c!ping \n`4.` c!react \n`5.` c!server \n`6.` c!me \n`7.` c!kick \n`8.` c!fruits"
             }]
     }
     })
