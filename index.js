@@ -7,7 +7,7 @@ if(!message.channel.guild) return;
 if (message.content.startsWith('$!play')) {
 message.delete(4000)
 const voiceChannel = message.member.voiceChannel;
-if (!voiceChannel) return message.reply(**You must be join to channel first**).then(msg => msg.delete(3000))
+if (!voiceChannel) return message.reply("You must be join to channel first").then(msg => msg.delete(3000))
 voiceChannel.join()
 .then(connnection => {
 const stream = ytdl("الرابط من فضلك", { filter: 'audioonly' });
